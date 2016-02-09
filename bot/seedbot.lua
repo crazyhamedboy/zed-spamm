@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {109618284},--Sudo users
+    sudo_users = {172178919},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -230,9 +230,9 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
+@crazyboy10 [Founder]
 @imandaneshi [Developer]
-@seyedan25 [Manager]
+@[Manager]
 
 Special thanks to
 awkward_potato
@@ -248,74 +248,95 @@ Commands list :
 
 !kick [username|id]
 You can also do it by reply
+میتونیدطرف رو با ایدی  کیک کنید
 
 !ban [ username|id]
 You can also do it by reply
-
+میتونید طرف رو با ایدی بن کنید
 !unban [id]
 You can also do it by reply
+میتونید طرف رو با ای دی از بن در بیارید
 
 !who
 Members list
+........
 
 !modlist
 Moderators list
+لیست مدیران
 
 !promote [username]
 Promote someone
+پرومت کردن شخصی در گروه
 
 !demote [username]
 Demote someone
+در اوردن شخصی از پرومت
 
 !kickme
 Will kick user
+خودتو پاک میکنه
 
 !about
 Group description
+درباره گروه
 
 !setphoto
 Set and locks group photo
+تعویض عکس گروه
 
 !setname [name]
 Set group name
+تعویض اسم گروه
 
 !rules
 Group rules
+قوانین گروه
 
 !id
 return group id or user id
+در اوردن ای دی عددی کسی با ریپلای
 
 !help
+راهنمای بات
 
 !lock [member|name|bots]
-Locks [member|name|bots] 
+Locks [member|name|bots]
+  قفل
 
 !unlock [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
-
+بازکردن قفل
 !set rules <text>
 Set <text> as rules
-
+گذاشتن قوانین
 !set about <text>
 Set <text> as about
+گذاشتن درباره گروه
 
 !settings
 Returns group settings
+تنظیمات
 
 !newlink
 create/revoke your group link
+لینک جدید
 
 !link
 returns group link
+لینک گروه
 
 !owner
 returns group owner id
+مدیر گروه
 
 !setowner [id]
 Will set id as owner
+ادمین کردن درگروه
 
 !setflood [value]
 Set [value] as flood sensitivity
+گذاشتن تعداد اسپم ها
 
 !stats
 Simple message statistics
